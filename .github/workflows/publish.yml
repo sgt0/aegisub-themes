@@ -1,0 +1,36 @@
+name: publish
+on:
+  push:
+    tags:
+      - 'v[0-9]+.[0-9]+.[0-9]+'
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.1
+      - uses: actions/setup-node@v4.0.2
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/upload-artifact@v4.3.1
+        with:
+          name: dist
+          path: dist
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4.1.4
+        with:
+          name: dist
+      - name: Deploy
+        uses: JamesIves/github-pages-deploy-action@4.5.0
+        with:
+          branch: gh-pages
+          folder: dist/client
+          clean: true
+          clean-exclude: |
+            .nojekyll

@@ -1,0 +1,149 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`SubtitleGridLine 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  background-color: rgb(216, 222, 245);
+}
+
+.emotion-1 {
+  text-align: center;
+  white-space: nowrap;
+  width: 1%;
+  background-color: rgb(196, 236, 201);
+}
+
+.emotion-2 {
+  text-align: center;
+  white-space: nowrap;
+  width: 1%;
+}
+
+.emotion-5 {
+  text-align: center;
+  white-space: nowrap;
+  width: 1%;
+  background-color: rgb(216, 222, 245);
+  color: inherit;
+}
+
+.emotion-6 {
+  white-space: nowrap;
+  width: 1%;
+}
+
+<tbody>
+    <tr
+      class="emotion-0"
+    >
+      <th
+        class="emotion-1"
+        scope="row"
+      >
+        1
+      </th>
+      <td
+        class="emotion-2"
+      />
+      <td
+        class="emotion-2"
+      >
+        0:00:05.00
+      </td>
+      <td
+        class="emotion-2"
+      >
+        0:00:08.00
+      </td>
+      <td
+        class="emotion-5"
+      >
+        6
+      </td>
+      <td
+        class="emotion-6"
+      >
+        Default
+      </td>
+      <td>
+        This is a comment line
+      </td>
+    </tr>
+  </tbody>
+</DocumentFragment>
+`;
+
+exports[`comment line 1`] = `
+<DocumentFragment>
+  .emotion-0 {
+  background-color: rgb(216, 222, 245);
+}
+
+.emotion-1 {
+  text-align: center;
+  white-space: nowrap;
+  width: 1%;
+  background-color: rgb(196, 236, 201);
+}
+
+.emotion-2 {
+  text-align: center;
+  white-space: nowrap;
+  width: 1%;
+}
+
+.emotion-5 {
+  text-align: center;
+  white-space: nowrap;
+  width: 1%;
+  background-color: rgb(216, 222, 245);
+  color: inherit;
+}
+
+.emotion-6 {
+  white-space: nowrap;
+  width: 1%;
+}
+
+<table>
+    <tbody>
+      <tr
+        class="emotion-0"
+      >
+        <th
+          class="emotion-1"
+          scope="row"
+        >
+          1
+        </th>
+        <td
+          class="emotion-2"
+        />
+        <td
+          class="emotion-2"
+        >
+          0:00:05.00
+        </td>
+        <td
+          class="emotion-2"
+        >
+          0:00:08.00
+        </td>
+        <td
+          class="emotion-5"
+        >
+          6
+        </td>
+        <td
+          class="emotion-6"
+        >
+          Default
+        </td>
+        <td>
+          This is a comment line
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
