@@ -20,8 +20,8 @@
     "highlight.js": "^11.9.0",
     "highlightjs-ass": "^0.0.7",
     "lodash-es": "^4.17.21",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "@emotion/jest": "^11.11.0",
@@ -32,13 +32,13 @@
     "@tsconfig/strictest": "^2.0.5",
     "@tsconfig/vite-react": "^3.0.2",
     "@types/lodash-es": "^4.17.12",
-    "@types/react": "^18.2.79",
-    "@types/react-dom": "^18.2.25",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.2.1",
     "eslint": "^8.57.0",
     "happy-dom": "^14.7.1",
     "prettier": "^3.2.5",
-    "react-test-renderer": "^18.2.0",
+    "react-test-renderer": "^18.3.1",
     "typescript": "^5.4.5",
     "vike": "^0.4.171",
     "vike-react": "^0.4.8",
