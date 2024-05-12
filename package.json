@@ -44,6 +44,6 @@
     "vike-react": "^0.4.8",
     "vite": "^5.2.11",
     "vite-plugin-cjs-interop": "^2.1.0",
-    "vitest": "^1.5.2"
+    "vitest": "^1.6.0"
   }
 }
