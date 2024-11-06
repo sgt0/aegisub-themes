@@ -40,7 +40,7 @@
     "vike": "^0.4.177",
     "vike-react": "^0.4.15",
     "vite": "^5.3.2",
-    "vite-plugin-cjs-interop": "^2.1.1",
+    "vite-plugin-cjs-interop": "^2.1.5",
     "vitest": "^2.0.5"
   }
 }
