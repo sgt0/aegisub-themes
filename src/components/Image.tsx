@@ -16,5 +16,6 @@ export function Image(
     HTMLImageElement
   >
 ) {
+  // biome-ignore lint/a11y/useAltText: expected to be handled by parent
   return <img css={styles} {...props} />;
 }

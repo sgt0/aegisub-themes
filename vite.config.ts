@@ -1,6 +1,6 @@
 import react from '@vitejs/plugin-react';
 import vike from 'vike/plugin';
-import { UserConfig } from 'vite';
+import type { UserConfig } from 'vite';
 import { cjsInterop } from 'vite-plugin-cjs-interop';
 
 const config: UserConfig = {

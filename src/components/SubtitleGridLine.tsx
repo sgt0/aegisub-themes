@@ -1,6 +1,6 @@
 import { css, useTheme } from '@emotion/react';
-import chroma, { Color } from 'chroma-js';
-import { AegisubTheme } from '../themes/base';
+import chroma, { type Color } from 'chroma-js';
+import type { AegisubTheme } from '../themes/base';
 
 const CPS_MIN = 15;
 const CPS_MAX = 30;

@@ -3,7 +3,7 @@ import { AegisubPreview } from '../../components/AegisubPreview';
 import { CopyButton } from '../../components/CopyButton';
 import { Image } from '../../components/Image';
 import { THEMES } from '../../themes';
-import { AegisubTheme } from '../../themes/base';
+import type { AegisubTheme } from '../../themes/base';
 import sectionsImg from './sections.png';
 
 const styles = {
@@ -20,9 +20,8 @@ const styles = {
 
 /** Convert a theme to Aegisub configuration. */
 function toAegisubConfig(theme: Omit<AegisubTheme, 'name'>) {
+  // biome-ignore format: prefer keeping this close to the original JSON
   return {
-    /* eslint-disable sort-keys-fix/sort-keys-fix */
-    // prettier-ignore
     "Subtitle" : {
 			"Background" : theme.subtitle.background,
 			"Syntax" : {
@@ -74,7 +73,6 @@ function toAegisubConfig(theme: Omit<AegisubTheme, 'name'>) {
         "Tags" : "rgb(90, 90, 90)"
 			}
 		},
-    // prettier-ignore
     "Subtitle Grid" : {
 			"Active Border": "rgb(45, 45, 45)",
 			"Background" : {
@@ -94,7 +92,6 @@ function toAegisubConfig(theme: Omit<AegisubTheme, 'name'>) {
 			"Selection" : theme.subtitleGrid.selection,
 			"Standard" : theme.subtitleGrid.standard
 		}
-    /* eslint-enable sort-keys-fix/sort-keys-fix */
   };
 }
 

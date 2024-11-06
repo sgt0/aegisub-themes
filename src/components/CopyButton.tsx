@@ -21,7 +21,7 @@ function useClipboard(text: string): [copied: boolean, copy: () => unknown] {
 
   const copy = useCallback(() => {
     navigator.clipboard.writeText(text).then(() => setCopied(true));
-  }, [text, setCopied]);
+  }, [text]);
 
   useEffect(() => {
     let timeoutId: number | null = null;

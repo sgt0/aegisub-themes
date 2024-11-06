@@ -12,7 +12,7 @@ jobs:
           node-version: 20
           cache: npm
       - run: npm ci
-      - run: npm run lint
+      - run: npx biome ci --organize-imports-enabled=false
   typecheck:
     runs-on: ubuntu-latest
     steps:

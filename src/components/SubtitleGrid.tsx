@@ -1,6 +1,6 @@
 import { css, useTheme } from '@emotion/react';
-import { AegisubTheme } from '../themes/base';
-import { SubtitleLine } from '../types';
+import type { AegisubTheme } from '../themes/base';
+import type { SubtitleLine } from '../types';
 import { SubtitleGridLine } from './SubtitleGridLine';
 
 const textAlignCenter = css({ textAlign: 'center' });
@@ -64,6 +64,7 @@ export function SubtitleGrid({ lines, onLineSelect, selectedLine }: Props) {
             isFold={!!line.isFold}
             isInframe={!!line.isInframe}
             isSelected={i === selectedLine}
+            // biome-ignore lint/suspicious/noArrayIndexKey: wontfix
             key={i}
             lineNumber={i + 1}
             onClick={() => onLineSelect(i)}

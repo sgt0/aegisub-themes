@@ -7,7 +7,7 @@
 import { css } from '@emotion/react';
 import hljs from 'highlight.js/lib/core';
 import hljsAss from 'highlightjs-ass';
-import { AegisubTheme } from '../themes/base';
+import type { AegisubTheme } from '../themes/base';
 
 hljs.registerLanguage('ass', hljsAss);
 
@@ -62,12 +62,13 @@ export function EditBox({ text, theme }: Props) {
 
         // This border color isn't configurable. It does vary with dark mode but
         // this is good enough to at least define the edges of the edit box.
-        border: `1px solid #646464`,
+        border: '1px solid #646464',
         color: theme.subtitle.syntax.normal,
         cursor: 'text',
         height: '3em',
         width: '100%'
       })}
+      // biome-ignore lint/security/noDangerouslySetInnerHtml: expected
       dangerouslySetInnerHTML={{ __html: highlighted }}
     />
   );
