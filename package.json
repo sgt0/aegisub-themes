@@ -26,7 +26,7 @@
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
     "@emotion/jest": "^11.13.0",
-    "@testing-library/react": "^16.0.0",
+    "@testing-library/react": "^16.0.1",
     "@thi.ng/api": "^8.11.2",
     "@tsconfig/strictest": "^2.0.5",
     "@tsconfig/vite-react": "^3.0.2",
