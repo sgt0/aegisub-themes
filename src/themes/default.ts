@@ -1,4 +1,4 @@
-import { AegisubTheme } from './base';
+import type { AegisubTheme } from './base';
 
 export const DEFAULT_THEME: AegisubTheme = {
   name: 'Default',

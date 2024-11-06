@@ -1,6 +1,6 @@
 import { css, useTheme } from '@emotion/react';
-import { ReactNode } from 'react';
-import { AegisubTheme } from '../themes/base';
+import type { ReactNode } from 'react';
+import type { AegisubTheme } from '../themes/base';
 
 type Props = { children: ReactNode };
 

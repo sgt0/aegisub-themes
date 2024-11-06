@@ -1,6 +1,6 @@
 import { css } from '@emotion/react';
 import { useState } from 'react';
-import { SubtitleLine } from '../types';
+import type { SubtitleLine } from '../types';
 import { Brace } from './Brace';
 import { Comment } from './Comment';
 import { DrawingCommand } from './DrawingCommand';
@@ -12,7 +12,6 @@ import { Punctuation } from './Punctuation';
 import { SubtitleGrid } from './SubtitleGrid';
 
 const SAMPLE_LINES: readonly SubtitleLine[] = [
-  /* eslint-disable sort-keys-fix/sort-keys-fix */
   {
     isComment: true,
     start: '0:00:05.00',
@@ -118,7 +117,6 @@ const SAMPLE_LINES: readonly SubtitleLine[] = [
     preview: 'Sed ut perspiciatis unde omnis iste.',
     content: 'Sed ut perspiciatis unde omnis iste.'
   }
-  /* eslint-enable sort-keys-fix/sort-keys-fix */
 ];
 
 const styles = css({
@@ -131,7 +129,7 @@ export function AegisubPreview() {
 
   return (
     <div css={styles}>
-      <EditBox>{SAMPLE_LINES[selectedLine]!.content}</EditBox>
+      <EditBox>{SAMPLE_LINES[selectedLine]?.content}</EditBox>
       <SubtitleGrid
         lines={SAMPLE_LINES}
         onLineSelect={selectLine}

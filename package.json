@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "format": "prettier --write .",
-    "lint": "eslint --cache src && prettier --cache --check .",
+    "format": "biome format --write .",
+    "lint": "biome check",
     "start": "vite",
     "test": "vitest",
     "typecheck": "tsc --noEmit"
@@ -24,9 +24,8 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
     "@emotion/jest": "^11.13.0",
-    "@ianvs/prettier-plugin-sort-imports": "^4.3.1",
-    "@nkzw/eslint-config": "^1.15.0",
     "@testing-library/react": "^16.0.0",
     "@thi.ng/api": "^8.11.2",
     "@tsconfig/strictest": "^2.0.5",
@@ -35,9 +34,7 @@
     "@types/react": "^18.3.1",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
-    "eslint": "^8.57.0",
     "happy-dom": "^14.12.0",
-    "prettier": "^3.3.2",
     "react-test-renderer": "^18.3.1",
     "typescript": "^5.5.3",
     "vike": "^0.4.177",

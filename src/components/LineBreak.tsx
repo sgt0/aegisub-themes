@@ -1,5 +1,5 @@
 import { css, useTheme } from '@emotion/react';
-import { AegisubTheme } from '../themes/base';
+import type { AegisubTheme } from '../themes/base';
 
 export function LineBreak() {
   const theme: AegisubTheme = useTheme() as AegisubTheme;

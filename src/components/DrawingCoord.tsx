@@ -1,5 +1,5 @@
 import { css, useTheme } from '@emotion/react';
-import { AegisubTheme } from '../themes/base';
+import type { AegisubTheme } from '../themes/base';
 
 type Props = { x: number; y: number };
 
