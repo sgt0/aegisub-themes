@@ -33,34 +33,15 @@ const globalStyles = css`
     font: inherit;
   }
 
-  p,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    overflow-wrap: break-word;
-  }
-
-  body::before {
+  body {
     background-color: #f0f0f0;
-    content: '';
-    height: 100%;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    z-index: -1;
+    line-height: 1.15;
   }
 
   @media (prefers-color-scheme: dark) {
-    html {
-      color: #f0f0f0;
-    }
-
-    body::before {
+    body {
       background-color: #202020;
+      color: #f0f0f0;
     }
   }
 

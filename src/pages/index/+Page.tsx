@@ -7,9 +7,9 @@ import type { AegisubTheme } from '../../themes/base';
 import sectionsImg from './sections.png';
 
 const styles = {
-  h1: css({ fontFamily: 'sans-serif', fontSize: '6rem' }),
+  h1: css({ fontFamily: 'sans-serif', fontSize: '6rem', lineHeight: 1.25 }),
   h2: css({ fontFamily: 'sans-serif', fontSize: '3rem' }),
-  p: css({ marginBottom: '1rem' }),
+  p: css({ marginBottom: '1rem', lineHeight: 1.5 }),
   section: css({
     fontFamily: 'sans-serif',
     fontSize: '1.25rem',
@@ -144,7 +144,15 @@ export function Page() {
               </li>
             </ol>
           </div>
-          <Image css={css({ maxHeight: '404px' })} src={sectionsImg} />
+          <Image
+            css={css({
+              maxHeight: '404px',
+              '@media (max-width: 60em)': {
+                display: 'none'
+              }
+            })}
+            src={sectionsImg}
+          />
         </div>
       </section>
       <section css={styles.section}>
