@@ -43,20 +43,24 @@ const globalStyles = css`
     overflow-wrap: break-word;
   }
 
-  html {
-    color: #f0f0f0;
+  body::before {
+    background-color: #f0f0f0;
+    content: '';
+    height: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: -1;
   }
 
   @media (prefers-color-scheme: dark) {
+    html {
+      color: #f0f0f0;
+    }
+
     body::before {
       background-color: #202020;
-      content: '';
-      height: 100%;
-      left: 0;
-      position: fixed;
-      top: 0;
-      width: 100vw;
-      z-index: -1;
     }
   }
 
