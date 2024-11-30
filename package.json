@@ -37,7 +37,7 @@
     "happy-dom": "^15.11.7",
     "react-test-renderer": "^18.3.1",
     "typescript": "^5.7.2",
-    "vike": "^0.4.205",
+    "vike": "^0.4.206",
     "vike-react": "^0.5.9",
     "vite": "^5.4.11",
     "vite-plugin-cjs-interop": "^2.1.6",
