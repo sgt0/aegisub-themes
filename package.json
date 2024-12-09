@@ -12,7 +12,7 @@
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
-    "@emotion/react": "^11.13.5",
+    "@emotion/react": "^11.14.0",
     "@mdi/js": "^7.4.47",
     "@mdi/react": "^1.6.1",
     "ayu": "^8.0.1",
