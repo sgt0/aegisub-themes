@@ -17,7 +17,7 @@
     "@mdi/react": "^1.6.1",
     "ayu": "^8.0.1",
     "chroma-js": "^3.1.2",
-    "highlight.js": "^11.11.0",
+    "highlight.js": "^11.11.1",
     "highlightjs-ass": "^0.0.7",
     "lodash-es": "^4.17.21",
     "react": "^18.3.1",
