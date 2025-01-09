@@ -36,7 +36,7 @@
     "@vitejs/plugin-react": "^4.3.4",
     "happy-dom": "^16.5.3",
     "react-test-renderer": "^19.0.0",
-    "typescript": "^5.7.2",
+    "typescript": "^5.7.3",
     "vike": "^0.4.212",
     "vike-react": "^0.5.11",
     "vite": "^6.0.7",
