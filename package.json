@@ -39,7 +39,7 @@
     "typescript": "^5.7.3",
     "vike": "^0.4.223",
     "vike-react": "^0.5.13",
-    "vite": "^6.1.1",
+    "vite": "^6.2.0",
     "vite-plugin-cjs-interop": "^2.1.6",
     "vitest": "^3.0.6"
   }
