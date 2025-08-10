@@ -27,7 +27,7 @@
     "@biomejs/biome": "^1.9.4",
     "@emotion/jest": "^11.13.0",
     "@testing-library/react": "^16.3.0",
-    "@thi.ng/api": "^8.11.32",
+    "@thi.ng/api": "^8.12.1",
     "@tsconfig/strictest": "^2.0.5",
     "@tsconfig/vite-react": "^6.3.6",
     "@types/lodash-es": "^4.17.12",
