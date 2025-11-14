@@ -4,12 +4,19 @@
     "config:best-practices",
     ":disableDependencyDashboard",
     ":disableRateLimiting",
+    ":maintainLockFilesWeekly",
     ":semanticCommits",
     ":semanticCommitTypeAll(deps)",
     ":semanticCommitScopeDisabled"
   ],
   "rangeStrategy": "bump",
+  "rebaseWhen": "conflicted",
   "packageRules": [
+    {
+      "description": "Automerge non-major updates",
+      "matchUpdateTypes": ["minor", "patch", "digest", "lockFileMaintenance"],
+      "automerge": true
+    },
     {
       "matchManagers": ["github-actions"],
       "extends": [":semanticCommitTypeAll(ci)"]
