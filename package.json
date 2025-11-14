@@ -1,6 +1,6 @@
 {
   "name": "aegisub-themes",
-  "version": "1.0.6",
+  "version": "0.0.0-semantic-release",
   "private": true,
   "type": "module",
   "scripts": {
