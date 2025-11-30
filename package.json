@@ -18,7 +18,7 @@
     "ayu": "^8.0.1",
     "chroma-js": "^3.1.2",
     "highlight.js": "^11.11.1",
-    "highlightjs-ass": "^1.0.2",
+    "highlightjs-ass": "^1.0.3",
     "lodash-es": "^4.17.21",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
