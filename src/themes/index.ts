@@ -2,7 +2,7 @@ import { AYU_DARK_THEME } from './ayu-dark';
 import { AYU_LIGHT_THEME } from './ayu-light';
 import { AYU_MIRAGE_THEME } from './ayu-mirage';
 import { CATPPUCCIN_FRAPPE_THEME } from './catppuccin-frappe';
-import { CATPPUCCIN_LATTE_THEME } './catppuccin-latte';
+import { CATPPUCCIN_LATTE_THEME } from './catppuccin-latte';
 import { CATPPUCCIN_MACCHIATO_THEME } from './catppuccin-macchiato';
 import { CATPPUCCIN_MOCHA_THEME } from './catppuccin-mocha';
 import { DEFAULT_THEME } from './default';
