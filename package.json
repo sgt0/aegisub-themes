@@ -15,7 +15,7 @@
     "@emotion/react": "^11.14.0",
     "@mdi/js": "^7.4.47",
     "@mdi/react": "^1.6.1",
-    "ayu": "^8.0.1",
+    "ayu": "^9.0.0",
     "chroma-js": "^3.2.0",
     "highlight.js": "^11.11.1",
     "highlightjs-ass": "^1.0.3",
