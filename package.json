@@ -20,8 +20,8 @@
     "highlight.js": "^11.11.1",
     "highlightjs-ass": "^1.0.3",
     "lodash-es": "^4.17.23",
-    "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
@@ -37,7 +37,7 @@
     "@vitejs/plugin-react": "4.7.0",
     "conventional-changelog-conventionalcommits": "9.1.0",
     "happy-dom": "20.3.9",
-    "react-test-renderer": "19.2.3",
+    "react-test-renderer": "19.2.4",
     "semantic-release": "25.0.2",
     "typescript": "5.9.3",
     "vike": "0.4.252",
