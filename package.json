@@ -40,7 +40,7 @@
     "react-test-renderer": "19.2.4",
     "semantic-release": "25.0.2",
     "typescript": "5.9.3",
-    "vike": "0.4.252",
+    "vike": "0.4.253",
     "vike-react": "0.6.19",
     "vite": "6.4.1",
     "vite-plugin-cjs-interop": "2.4.0",
