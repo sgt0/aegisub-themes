@@ -1,8 +1,8 @@
 import {
+  type Base16Palette,
   fromBase16,
   meetContrastRatio,
-  mergeAegisubThemes,
-  type Base16Palette
+  mergeAegisubThemes
 } from './utils';
 
 const PALETTE: Base16Palette = {
