@@ -8,7 +8,7 @@ const config: UserConfig = {
   plugins: [
     cjsInterop({ dependencies: ['@mdi/react', 'chroma-js'] }),
     react(),
-    vike({ prerender: true })
+    vike()
   ]
 };
 

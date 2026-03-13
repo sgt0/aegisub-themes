@@ -2,5 +2,6 @@ import vikeReact from 'vike-react/config';
 
 export default {
   extends: vikeReact,
-  title: 'Aegisub themes'
+  title: 'Aegisub themes',
+  prerender: true
 };
