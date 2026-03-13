@@ -63,6 +63,12 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run build
+      - name: Assert dist/client/index.html exists
+        run: |
+          if [ ! -f dist/client/index.html ]; then
+            echo "dist/client/index.html is missing after build."
+            exit 1
+          fi
       - uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4.0.0
         with:
           path: dist/client
