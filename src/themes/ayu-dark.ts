@@ -1,4 +1,4 @@
-import { fromBase16, mergeAegisubThemes, type Base16Palette } from './utils';
+import { type Base16Palette, fromBase16, mergeAegisubThemes } from './utils';
 
 const PALETTE: Base16Palette = {
   base00: '#0F1419',

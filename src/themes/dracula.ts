@@ -1,4 +1,4 @@
-import { fromBase24, mergeAegisubThemes, type Base24Palette } from './utils';
+import { type Base24Palette, fromBase24, mergeAegisubThemes } from './utils';
 
 const PALETTE: Base24Palette = {
   base00: '#21222c',

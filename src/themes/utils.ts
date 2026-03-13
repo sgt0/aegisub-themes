@@ -1,5 +1,5 @@
 import type { DeepPartial } from '@thi.ng/api';
-import chroma, { contrast, type Color } from 'chroma-js';
+import chroma, { type Color, contrast } from 'chroma-js';
 import { merge } from 'lodash-es';
 import type { AegisubTheme } from './base';
 

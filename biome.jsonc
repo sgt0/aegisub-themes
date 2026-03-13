@@ -1,5 +1,12 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
+  "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
+  },
   "formatter": {
     "useEditorconfig": true
   },
@@ -17,9 +24,6 @@
       }
     }
   },
-  "organizeImports": {
-    "enabled": true
-  },
   "javascript": {
     "formatter": {
       "quoteStyle": "single",
@@ -28,6 +32,8 @@
   },
   "vcs": {
     "enabled": true,
-    "clientKind": "git"
+    "clientKind": "git",
+    "useIgnoreFile": true,
+    "defaultBranch": "main"
   }
 }
