@@ -1,7 +1,7 @@
 import { css } from '@emotion/react';
-import { mdiCheckBold, mdiContentCopy } from '@mdi/js';
-import Icon from '@mdi/react';
 import { useCallback, useEffect, useState } from 'react';
+import { MdiCheckBold } from './MdiCheckBold';
+import { MdiContentCopy } from './MdiContentCopy';
 
 const styles = {
   button: css({
@@ -12,7 +12,12 @@ const styles = {
     padding: '0 0.5rem',
     position: 'relative'
   }),
-  icon: css({ alignItems: 'center', display: 'inline-flex' }),
+  icon: css({
+    alignItems: 'center',
+    display: 'inline-flex',
+    height: '16px',
+    width: '16px'
+  }),
   label: css({ fontSize: '0.75rem', marginLeft: '0.25rem' })
 };
 
@@ -47,12 +52,11 @@ export function CopyButton({ text }: Props) {
 
   return (
     <button css={styles.button} onClick={copy} type="button">
-      <Icon
-        aria-hidden
-        css={styles.icon}
-        path={copied ? mdiCheckBold : mdiContentCopy}
-        size="16px"
-      />
+      {copied ? (
+        <MdiCheckBold css={styles.icon} />
+      ) : (
+        <MdiContentCopy css={styles.icon} />
+      )}
       <p css={styles.label}>{copied ? 'Copied' : 'Copy Theme'}</p>
     </button>
   );
