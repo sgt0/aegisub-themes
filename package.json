@@ -37,7 +37,7 @@
     "happy-dom": "20.8.9",
     "react-test-renderer": "19.2.4",
     "semantic-release": "25.0.3",
-    "typescript": "5.9.3",
+    "typescript": "6.0.2",
     "vike": "0.4.253",
     "vike-react": "0.6.21",
     "vite": "8.0.3",
