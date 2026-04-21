@@ -26,7 +26,7 @@
     "@emotion/jest": "11.14.2",
     "@semantic-release/exec": "7.1.0",
     "@testing-library/react": "16.3.2",
-    "@thi.ng/api": "8.12.18",
+    "@thi.ng/api": "8.12.19",
     "@tsconfig/strictest": "2.0.8",
     "@tsconfig/vite-react": "7.0.2",
     "@types/lodash-es": "4.17.12",
