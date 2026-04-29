@@ -22,7 +22,7 @@
     "react-dom": "^19.2.5"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.12",
+    "@biomejs/biome": "2.4.13",
     "@emotion/jest": "11.14.2",
     "@semantic-release/exec": "7.1.0",
     "@testing-library/react": "16.3.2",
