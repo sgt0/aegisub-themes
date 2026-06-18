@@ -68,7 +68,6 @@ export function EditBox({ text, theme }: Props) {
         height: '3em',
         width: '100%'
       })}
-      // biome-ignore lint/security/noDangerouslySetInnerHtml: expected
       dangerouslySetInnerHTML={{ __html: highlighted }}
     />
   );
