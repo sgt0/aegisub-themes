@@ -64,7 +64,6 @@ export function SubtitleGrid({ lines, onLineSelect, selectedLine }: Props) {
             isFold={!!line.isFold}
             isInframe={!!line.isInframe}
             isSelected={i === selectedLine}
-            // biome-ignore lint/suspicious/noArrayIndexKey: wontfix
             key={i}
             lineNumber={i + 1}
             onClick={() => onLineSelect(i)}
