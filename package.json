@@ -36,7 +36,7 @@
     "conventional-changelog-conventionalcommits": "10.2.1",
     "happy-dom": "20.10.6",
     "react-test-renderer": "19.2.7",
-    "semantic-release": "25.0.6",
+    "semantic-release": "25.0.7",
     "typescript": "6.0.3",
     "vike": "0.4.253",
     "vike-react": "0.6.25",
