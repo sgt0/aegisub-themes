@@ -25,7 +25,7 @@
     "@biomejs/biome": "2.5.10",
     "@emotion/jest": "11.14.2",
     "@semantic-release/exec": "7.1.0",
-    "@testing-library/react": "16.3.2",
+    "@testing-library/react": "16.3.3",
     "@thi.ng/api": "8.12.28",
     "@tsconfig/strictest": "2.0.8",
     "@tsconfig/vite-react": "8.1.1",
