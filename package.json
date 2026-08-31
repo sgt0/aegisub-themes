@@ -34,7 +34,7 @@
     "@types/react-dom": "19.2.5",
     "@vitejs/plugin-react": "6.1.1",
     "conventional-changelog-conventionalcommits": "10.4.0",
-    "happy-dom": "20.11.12",
+    "happy-dom": "20.11.13",
     "react-test-renderer": "19.2.8",
     "semantic-release": "25.0.9",
     "typescript": "7.0.2",
