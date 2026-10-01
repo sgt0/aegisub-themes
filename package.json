@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
-    "ayu": "^9.0.0",
+    "ayu": "^9.1.0",
     "chroma-js": "^3.2.0",
     "highlight.js": "^11.12.0",
     "highlightjs-ass": "^1.0.3",
