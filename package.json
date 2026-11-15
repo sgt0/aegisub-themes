@@ -28,7 +28,7 @@
     "@testing-library/react": "16.3.3",
     "@thi.ng/api": "8.12.28",
     "@tsconfig/strictest": "2.0.9",
-    "@tsconfig/vite-react": "8.1.1",
+    "@tsconfig/vite-react": "8.1.2",
     "@types/lodash-es": "4.17.12",
     "@types/react": "19.3.0",
     "@types/react-dom": "19.3.0",
